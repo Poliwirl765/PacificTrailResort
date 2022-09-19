@@ -10,12 +10,13 @@ main {
 	padding-right: 2em;
 	padding-left: 2em;
 	display: block;
+	background-color: #fff;
 	margin-left: 170px;
 	padding-top: 1px;
 }
 header {
-	background-image: url('sunset.jpg');
 	line-height: 200%;
+	background-image: url('sunset.jpg');
 	background-repeat: no-repeat; 
 	background-position: right;
 	padding-left: 2em;
@@ -25,11 +26,13 @@ header {
 nav {
 	font-weight: bold;
 	float: left;
-	/*width: 160px;*/
+	width: 160px;
+	padding: 0;
 }
 nav ul {
 	font-size: 1.2em;
 	list-style-type: none;
+	padding-left: 1em;
 
 }
 nav a:visited {
@@ -59,16 +62,22 @@ h2 {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #003;
+	box-shadow: 5px 10px 10px grey;
 }
 #contact {
 	font-size: 90%;
 }
 dt {
 	color: #000033;
+	font-weight: bold;
 }
 footer {
-	/*font-family: Georgia, "Times New Roman", serif;*/
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	margin-left: 170px;
 }
 table {width: 90%;
 	margin-left: auto;
