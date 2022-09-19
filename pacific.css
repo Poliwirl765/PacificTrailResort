@@ -9,6 +9,7 @@ body {
 
 nav ul {
 	font-size: 1.2em;
+	list-style-image: url('marker.gif');
 }
 nav a:visited {
 	color: #344873;
