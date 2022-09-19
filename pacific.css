@@ -6,10 +6,19 @@ body {
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
+main {
+	padding-right: 2em;
+	padding-left: 2em;
+	display: block;
+	margin-left: 170px;
+	padding-top: 1px;
+}
 header {
 	background-image: url('sunset.jpg');
 	line-height: 200%;
 	background-repeat: no-repeat; 
+	background-position: right;
+	padding-left: 2em;
 	height: 72px;
 	margin-bottom: 0;
 }
