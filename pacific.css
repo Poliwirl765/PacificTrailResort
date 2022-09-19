@@ -9,7 +9,7 @@ body {
 
 nav ul {
 	font-size: 1.2em;
-	list-style-image: url('marker.gif');
+	list-style-type: none;
 }
 nav a:visited {
 	color: #344873;
@@ -27,6 +27,13 @@ h2 {
 h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
+}
+#content {
+	min-width: 600px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	list-style-image: url('marker.gif');
 }
 #contact {
 	font-size: 90%;
