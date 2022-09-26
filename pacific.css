@@ -1,27 +1,33 @@
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
+/*Code for the background (gradient) and the text*/
 body {
 	background: url('ptrbackground.jpg');
 	color: #444242;
 	font-family: Arial, Helvetica, sans-serif;
 }
-main {
+/* Code for the structure of the main area */
+/*main {
 	padding-right: 2em;
 	padding-left: 2em;
 	display: block;
 	background-color: #fff;
 	margin-left: 170px;
 	padding-top: 1px;
-}
+}*/
+/* Code for the header with sunset */
 header {
-	line-height: 200%;
+	display: flex;
+	text-align: justify;
+	color: white;
+	line-height: 0px;
 	background-image: url('sunset.jpg');
 	background-size: cover;
-	background-repeat: no-repeat; 
-	background-position: right;
+	background-position: right; 
 	padding-left: 2em;
-	height: 72px;
+	padding: 1px;
+	height: 60px;
 	margin-bottom: 0;
 }
 nav {
@@ -29,12 +35,13 @@ nav {
 	float: left;
 	width: 160px;
 	padding: 0;
+	font-size: 1.2em;
+	background-color: rgb(80, 160, 209);
+	list-style-type: none;
+	height: fit-content;
 }
 nav ul {
-	font-size: 1.2em;
-	list-style-type: none;
 	padding-left: 1em;
-
 }
 nav a:visited {
 	color: #344873;
@@ -48,26 +55,51 @@ h1 {
 }
 h2 {
 	color: #3399CC;
+	text-align: left;
 }
 h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
 #content {
-	display: flex;
-	justify-content: center;
+	display: block;
+	/*justify-content: center;*/
+	text-align: justify;
 	list-style-image: url('marker.gif');
+	margin-left: 180px;
+	padding-right: 1em;
+	padding-left: 1em;
+	list-style-position: inside;
+	/*height: 300px;*/
+	background-size: 100% 100%;
+}
+img {
+	float: left;
+	margin-right: 20px;
+}
+/*main {
+	padding-right: 2em;
+	padding-left: 2em;
+	display: block;
+	background-color: #fff;
+	margin-left: 170px;
+	padding-top: 1px;
+}*/
+.resort {
+	font-size: 1.2em;
+	color: rgb(80, 134, 167);
 }
 #wrapper {
 	min-width: 600px;
 	width: 80%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #003;
-	box-shadow: 5px 10px 10px grey;
+	background-color: white;
 }
 #contact {
 	font-size: 90%;
+	text-align: left;
 }
 dt {
 	color: #000033;
@@ -76,40 +108,7 @@ dt {
 footer {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
-	text-align: center;
+	text-align: left;
 	padding: 1em;
 	margin-left: 170px;
-}
-table {width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid #39C;
-	border-collapse: collapse;
-}
-
-td, th {
-	padding: 5px;
-	border: 1px solid #39c;
-}
-
-td { text-align: center;
-}
-
-.text {text-align: left;
-}
-
-tr:nth-child(even){
-	background-color: #f5fafc;
-	text-align: left;
-}
-
-label { float: left;
-		display: block;
-		width: 8em;
-	    padding-right: 1em;
-}
-
-input, textarea {
-	display: block;
-	margin-bottom: 1em;
 }
